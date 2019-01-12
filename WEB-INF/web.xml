@@ -1,0 +1,12 @@
+<web-app version="2.4">
+
+  <servlet>
+    <servlet-name>employee</servlet-name>
+    <servlet-class>system.EmployeeControllerT3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>employee</servlet-name>
+    <url-pattern>/employee</url-pattern>
+  </servlet-mapping>
+</web-app>

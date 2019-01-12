@@ -20,4 +20,14 @@
     <url-pattern>/employeedetails</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>employeedetailsa</servlet-name>
+    <servlet-class>system.EmployeeControllerT4a</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>employeedetailsa</servlet-name>
+    <url-pattern>/employeedetailsa</url-pattern>
+  </servlet-mapping>
+
 </web-app>

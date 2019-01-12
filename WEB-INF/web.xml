@@ -9,4 +9,15 @@
     <servlet-name>employee</servlet-name>
     <url-pattern>/employee</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>employeedetails</servlet-name>
+    <servlet-class>system.EmployeeControllerT4</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>employeedetails</servlet-name>
+    <url-pattern>/employeedetails</url-pattern>
+  </servlet-mapping>
+
 </web-app>

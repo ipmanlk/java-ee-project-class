@@ -39,4 +39,14 @@
     <servlet-name>employeedetailsb</servlet-name>
     <url-pattern>/employeedetailsb</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>employeedetailsT6</servlet-name>
+    <servlet-class>system.EmployeeControllerT6</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>employeedetailsT6</servlet-name>
+    <url-pattern>/employeedetailsT6</url-pattern>
+  </servlet-mapping>
 </web-app>
